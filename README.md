@@ -4,43 +4,60 @@
 
 ## Installation Instructions
 
-Hooks live inside files located within the `/[WHMCS_ROOT]/includes/hooks/` directory. To integrate Themely with WHMCS follow the instructions below.
-
 **Step 1**
 
-- [Download this zip file](https://github.com/ismaelyws/themely-whmcs-hook/archive/master.zip)
+- [Download the contents of this repository](https://github.com/ismaelyws/themely-whmcs-module/archive/master.zip)
 - Unzip the file
-- Locate the `themely.php` file located inside the folder
-- Upload it to the WHMCS hooks directory on your server `/[WHMCS_ROOT]/includes/hooks/`.
+- Locate the **whmcs** folder
 
 **Step 2**
+To install the addon module it will need to be uploaded to your WHMCS installation. Upload the contents of the **whmcs** folder which contains the **modules** & **templates** foldes to the root directory of your WHMCS installation location. Once uploaded the addon will be available within your admin area.
 
-Log into your WHMCS Admin Dashboard and navigate to `Setup > Products & Services > Products & Services`.
+![Upload the module](assets/upload-module.PNG)
 
 **Step 3**
 
-Click the edit icon for the product you wish to configure. Then, click on `Custom Fields`.
+- Navigate to **Configuration (🔧) > System Settings > Addon Modules** or, prior to WHMCS 8.0, **Setup > Addon Modules**, and the addon you have uploaded will be listed.
+- Click **Activate** next to Themely. The module is now active within your WHMCS.
+- Click **Configure** and select which administrator roles you wish to have access to the module by enabling them under the Access Control section.
+
+**Step 2**
+
+Navigate to **Configuration (🔧) > Products & Services > Products & Services**.
+
+**Step 3**
+
+Click the edit icon for the product you wish to configure. Then, click on **Custom Fields**.
 
 **Step 4**
  
-Create 2 custom fields for the WordPress Admin Username and Password. Field names **must be exactly** as you see highlighted below (upper and lowercase characters do matter). Display order is of course at your discretion.
+Create 4 custom fields for the WordPress Admin Username, Admin Password, Theme Slug and Theme URL. Field names **must be exactly** as you see highlighted below (upper and lowercase characters do matter). Display order is of course at your discretion.
 
 `WordPress Admin Username`
 
 `WordPress Admin Password`
 
-Select *Required Field* & *Show on Order Form* for both custom fields.
+`WordPress Theme Slug`
 
-![Themely WHMCS Custom Fields](assets/whmcs-custom-fields-20191205.PNG)
+`WordPress Theme URL`
+
+Select *Show on Order Form* for all custom fields.
+Select *Required Field* only for the Admin Username and Password.
+
+![Create 4 Custom Fields](assets/whmcs-module-custom-fields.PNG)
+
+NOTE: The module requires the Theme Slug and Theme URL custom fields but they won't be visible to clients during checkout. These fields will remain hidden and when a client selects a theme our module will pass those variables to the form.
+
+![Customs Fields & Theme Directory](assets/custom-fields-directory.PNG)
 
 
 ## Configuration Instructions
 
-You can select which theme will be installed with WordPress by editing line 90 and 91 of the `themely.php` file.
+If a client doesn't select a theme during checkout you can select which theme will be installed with WordPress by editing the `hooks.php` file located in this folder `[WHMCS_ROOT]/modules/addons/themely/`.
 
-Configuration options are found on line 86-89.
+Configuration options are found on line 73-74.
 
-![Themely WHMCS Hook Config](assets/whmcs-hook-config-20191205.PNG)
+![Theme Settings](assets/whmcs-module-config.PNG)
 
 
 ## Quick Shortcut
