@@ -11,7 +11,7 @@
 
 **Step 2**
 
-To install the module it will need to be uploaded to your WHMCS installation. Upload the contents of the **whmcs** folder which contains the **modules** & **templates** folders to the root directory of your WHMCS installation location. Once uploaded the addon will be available within your admin area.
+Upload the contents of the **whmcs** folder which contains the **modules** & **templates** folders to the root directory of your WHMCS installation location. Once uploaded the addon will be available within your admin area.
 
 ![Upload the module](assets/upload-module.PNG)
 
