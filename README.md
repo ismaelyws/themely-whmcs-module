@@ -1,6 +1,4 @@
 # Themely WHMCS Addon Module
-
-## Integrate Themely cPanel plugin with WHMCS
 #### Display themes during checkout and automatically install selected theme and WordPress for new accounts.
 
 ## Installation Instructions
