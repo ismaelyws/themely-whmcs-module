@@ -1,0 +1,36 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-addons",
+  "name": "themely",
+  "version": "1.0",
+  "license": "proprietary",
+  "category": "addon",
+  "description": {
+    "name": "Themely",
+    "tagline": "Integrate Themely WordPress installer with WHMCS",
+    "long": "Sell more WordPress hosting services and help your customers build stunning WordPress sites quickly and easily with our free themes directory, one-click installer and onboarding features.",
+    "features": [
+      "Select a free theme during checkout",
+      "Automatically install WordPress on new accounts",
+      "Automatically install selected theme on new accounts"
+    ]
+  },
+  "support": {
+    "support_url": "https:\/\/plugin.themely.com\/#contact"
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "authors": [
+    {
+      "name": "Themely",
+      "homepage": "https:\/\/plugin.themely.com\/"
+    }
+  ],
+  "keywords": [
+    "themely",
+    "wordpress",
+    "installer",
+    "themes"
+  ]
+}

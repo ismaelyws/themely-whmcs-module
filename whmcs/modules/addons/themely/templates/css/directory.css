@@ -1,0 +1,114 @@
+/* Standard Cart Override */
+#order-standard_cart .secondary-cart-body, #order-standard_cart .secondary-cart-sidebar {
+	width: 100% !important;
+}
+/* Themely Directory */
+.invisible {
+	height: 0;
+	margin: 0;
+}
+.themely .badge {
+	background-color: #337ab7 !important;
+}
+.themely .search-input {
+	width: 100%;
+	margin-bottom: 15px;
+}
+.themely .search-results {
+	max-height: 780px;
+	overflow-y: scroll;
+}
+.themely .thumbnail {
+	padding:0;
+}
+.themely .caption {padding: 12px 8px 5px 8px;}
+.themely .name, .themely .author {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	max-width: 100%;
+	display: block;		
+	line-height: 1.3;
+}
+.themely .no-padding-right {padding-right: 0;}
+.themely .no-padding-left {padding-left: 0;}
+.themely .btn-outline {
+	border: 1px solid;
+}
+.themely .spinner-border {
+	display: none;
+	width: 2rem;
+	height: 2rem;
+	vertical-align: text-bottom;
+	border: 0.25em solid currentColor;
+	border-right-color: transparent;
+	border-radius: 50%;
+	-webkit-animation: themely-spinner-border .75s linear infinite;
+	animation: themely-spinner-border .75s linear infinite;
+	right: 22px;
+	position: absolute;
+	top: 7px;
+}
+@-webkit-keyframes themely-spinner-border {
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes themely-spinner-border {
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@media (min-width: 1681px) {
+	.themely .display-xl {display: inline-block !important;}
+}
+@media (min-width: 1200px) and (max-width: 1599px) {
+	.themely .display-xl {display: inline-block !important;}
+}
+/* Bootstrap xl */
+@media (min-width: 1600px) {
+	.themely .container {
+		width: 1570px;
+	}
+	.themely .col-xl-1, .themely .col-xl-2, .themely .col-xl-3, .themely .col-xl-4, .themely .col-xl-5, .themely .col-xl-6, .themely .col-xl-7, .themely .col-xl-8, .themely .col-xl-9, .themely .col-xl-10, .themely .col-xl-11, .themely .col-xl-12 {
+	 	float: left;
+	}
+	.themely .col-xl-12 {
+		width: 100%;
+	}
+	.themely .col-xl-11 {
+		width: 91.66666667%;
+	}
+	.themely .col-xl-10 {
+		width: 83.33333333%;
+	}
+	.themely .col-xl-9 {
+		width: 75%;
+	}
+	.themely .col-xl-8 {
+		width: 66.66666667%;
+	}
+	.themely .col-xl-7 {
+		width: 58.33333333%;
+	}
+	.themely .col-xl-6 {
+		width: 50%;
+	}
+	.themely .col-xl-5 {
+		width: 41.66666667%;
+	}
+	.themely .col-xl-4 {
+		width: 33.33333333%;
+	}
+	.themely .col-xl-3 {
+		width: 25%;
+	}
+	.themely .col-xl-2 {
+		width: 16.66666667%;
+	}
+	.themely .col-xl-1 {
+		width: 8.33333333%;
+	}
+}
