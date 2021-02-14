@@ -12,7 +12,7 @@
 
 **Step 2**
 
-To install the addon module it will need to be uploaded to your WHMCS installation. Upload the contents of the **whmcs** folder which contains the **modules** & **templates** foldes to the root directory of your WHMCS installation location. Once uploaded the addon will be available within your admin area.
+To install the module it will need to be uploaded to your WHMCS installation. Upload the contents of the **whmcs** folder which contains the **modules** & **templates** foldes to the root directory of your WHMCS installation location. Once uploaded the addon will be available within your admin area.
 
 ![Upload the module](assets/upload-module.PNG)
 
@@ -42,7 +42,7 @@ Create 4 custom fields for the WordPress Admin Username, Admin Password, Theme S
 Select *Show on Order Form* for all custom fields.
 Select *Required Field* only for the Admin Username and Password.
 
-![Create 4 Custom Fields](assets/whmcs-module-custom-fields.PNG)
+![Create 4 Custom Fields](assets/whmcs-module-custom-fields.png)
 
 NOTE: The module requires the Theme Slug and Theme URL custom fields but they won't be visible to clients during checkout. These fields will remain hidden and when a client selects a theme our module will pass those variables to the form.
 
