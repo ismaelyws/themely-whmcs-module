@@ -7,7 +7,7 @@
 
 - [Download the contents of this repository](https://github.com/ismaelyws/themely-whmcs-module/archive/master.zip)
 - Unzip the file
-- Locate the **whmcs** folder
+- Locate the **whmcs** folder located within the **themely-whmcs-module-master** folder
 
 **Step 2**
 
