@@ -52,7 +52,7 @@ NOTE: The module requires the Theme Slug and Theme URL custom fields but they wo
 
 ## Configuration Instructions
 
-If a client doesn't select a theme during checkout you can select which theme will be installed with WordPress by editing the `hooks.php` file located in this folder `[WHMCS_ROOT]/modules/addons/themely/`.
+If a client doesn't select a theme during checkout you can select which theme will be installed by default by editing the `hooks.php` file located in this folder `[WHMCS_ROOT]/modules/addons/themely/`.
 
 Configuration options are found on line 73-74.
 
