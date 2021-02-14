@@ -1,6 +1,7 @@
 # Themely WHMCS Addon Module
 
-#### Integrate Themely cPanel plugin with WHMCS and automatically install selected themes and WordPress for new accounts.
+## Integrate Themely cPanel plugin with WHMCS
+#### Display themes during checkout and automatically install selected theme and WordPress for new accounts.
 
 ## Installation Instructions
 
@@ -57,11 +58,6 @@ If a client doesn't select a theme during checkout you can select which theme wi
 Configuration options are found on line 73-74.
 
 ![Theme Settings](assets/whmcs-module-config.PNG)
-
-
-## Quick Shortcut
-
-You can also add a shortcut to Themely within the Quick Shortcuts panel in WHMCS, [follow these instructions](https://github.com/ismaelyws/Themely-WHMCS-Quick-Shortcut).
 
 
 ## Get Help/Support
