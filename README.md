@@ -1,6 +1,6 @@
 # Themely WHMCS Addon Module
 
-#### Integrate Themely cPanel plugin with WHMCS and automatically install user selected themes and WordPress for new accounts.
+#### Integrate Themely cPanel plugin with WHMCS and automatically install selected themes and WordPress for new accounts.
 
 ## Installation Instructions
 
@@ -42,6 +42,7 @@ Configuration options are found on line 86-89.
 
 ![Themely WHMCS Hook Config](assets/whmcs-hook-config-20191205.PNG)
 
+
 ## Quick Shortcut
 
 You can also add a shortcut to Themely within the Quick Shortcuts panel in WHMCS, [follow these instructions](https://github.com/ismaelyws/Themely-WHMCS-Quick-Shortcut).
@@ -49,9 +50,9 @@ You can also add a shortcut to Themely within the Quick Shortcuts panel in WHMCS
 
 ## Get Help/Support
 
-To get assistance with the Themely WHMCS hook or to suggest new features; here's how you can reach us:
+To get assistance or to suggest new features; here's how you can reach us:
 
-[Create new issue on Github](https://github.com/ismaelyws/themely-whmcs-hook/issues) (click the green **New Issue** button)
+[Create new issue on Github](https://github.com/ismaelyws/themely-whmcs-module/issues) (click the green **New Issue** button)
 
 [Chat with us on Discord](https://discord.gg/f3m2Pmp)
 
