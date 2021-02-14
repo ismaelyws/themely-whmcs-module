@@ -11,27 +11,25 @@
 - Locate the **whmcs** folder
 
 **Step 2**
+
 To install the addon module it will need to be uploaded to your WHMCS installation. Upload the contents of the **whmcs** folder which contains the **modules** & **templates** foldes to the root directory of your WHMCS installation location. Once uploaded the addon will be available within your admin area.
 
 ![Upload the module](assets/upload-module.PNG)
 
 **Step 3**
 
-- Navigate to **Configuration (🔧) > System Settings > Addon Modules** or, prior to WHMCS 8.0, **Setup > Addon Modules**, and the addon you have uploaded will be listed.
+- Navigate to **Configuration (🔧) > System Settings > Addon Modules** or, prior to WHMCS 8.0, **Setup > Addon Modules**, and the module will be listed.
 - Click **Activate** next to Themely. The module is now active within your WHMCS.
 - Click **Configure** and select which administrator roles you wish to have access to the module by enabling them under the Access Control section.
 
-**Step 2**
-
-Navigate to **Configuration (🔧) > Products & Services > Products & Services**.
-
-**Step 3**
-
-Click the edit icon for the product you wish to configure. Then, click on **Custom Fields**.
-
 **Step 4**
+
+- Navigate to **Configuration (🔧) > Products & Services > Products & Services**.
+- Click the edit icon for the product you wish to configure. Then, click on **Custom Fields**.
+
+**Step 5**
  
-Create 4 custom fields for the WordPress Admin Username, Admin Password, Theme Slug and Theme URL. Field names **must be exactly** as you see highlighted below (upper and lowercase characters do matter). Display order is of course at your discretion.
+Create 4 custom fields for the WordPress Admin Username, Admin Password, Theme Slug and Theme URL. Field names **must be exactly** as you see highlighted below (upper and lowercase characters do matter).
 
 `WordPress Admin Username`
 
